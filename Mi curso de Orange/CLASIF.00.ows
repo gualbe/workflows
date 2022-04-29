@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="untitled" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="IRIS" position="(133.0, 85.0)" />
+		<node id="1" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Breast Cancer" position="(283.0, 85.0)" />
+		<node id="2" name="Nomogram" qualified_name="Orange.widgets.visualize.ownomogram.OWNomogram" project_name="Orange3" version="" title="Nomogram" position="(433.0, 385.0)" />
+		<node id="3" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="Tree Viewer" position="(283.0, 385.0)" />
+		<node id="4" name="Pythagorean Forest" qualified_name="Orange.widgets.visualize.owpythagoreanforest.OWPythagoreanForest" project_name="Orange3" version="" title="Pythagorean Forest" position="(133.0, 385.0)" />
+		<node id="5" name="Calibrated Learner" qualified_name="Orange.widgets.model.owcalibratedlearner.OWCalibratedLearner" project_name="Orange3" version="" title="Calibrated Learner" position="(283.0, 985.0)" />
+		<node id="6" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN" position="(433.0, 685.0)" />
+		<node id="7" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(283.0, 685.0)" />
+		<node id="8" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(133.0, 685.0)" />
+		<node id="9" name="SVM" qualified_name="Orange.widgets.model.owsvm.OWSVM" project_name="Orange3" version="" title="SVM" position="(433.0, 835.0)" />
+		<node id="10" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(283.0, 835.0)" />
+		<node id="11" name="Naive Bayes" qualified_name="Orange.widgets.model.ownaivebayes.OWNaiveBayes" project_name="Orange3" version="" title="Naive Bayes" position="(133.0, 985.0)" />
+		<node id="12" name="AdaBoost" qualified_name="Orange.widgets.model.owadaboost.OWAdaBoost" project_name="Orange3" version="" title="AdaBoost" position="(133.0, 835.0)" />
+		<node id="13" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(433.0, 985.0)" />
+		<node id="14" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(733.0, 685.0)" />
+		<node id="15" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(883.0, 835.0)" />
+		<node id="16" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(883.0, 685.0)" />
+		<node id="17" name="ROC Analysis" qualified_name="Orange.widgets.evaluate.owrocanalysis.OWROCAnalysis" project_name="Orange3" version="" title="ROC Analysis" position="(1033.0, 685.0)" />
+		<node id="18" name="Calibration Plot" qualified_name="Orange.widgets.evaluate.owcalibrationplot.OWCalibrationPlot" project_name="Orange3" version="" title="Calibration Plot" position="(733.0, 835.0)" />
+		<node id="19" name="Polynomial Classification" qualified_name="orangecontrib.educational.widgets.owpolynomialclassification.OWPolynomialClassification" project_name="Orange3-Educational" version="" title="Polynomial Classification" position="(733.0, 385.0)" />
+	</nodes>
+	<links />
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x8e\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00$\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x96\x00\x00\x01\xaa\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9', 'selected_id': 'core/iris.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x8e\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00$\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x96\x00\x00\x01\xaa\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9', 'selected_id': 'core/breast-cancer.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASV/gAAAAAAAAB9lCiMFmNvbnRfZmVhdHVyZV9kaW1faW5kZXiUSwCMEmNvbnRyb2xBcmVhVmlz
+aWJsZZSIjA1kaXNwbGF5X2luZGV4lEsBjAxuX2F0dHJpYnV0ZXOUSwqMF25vcm1hbGl6ZV9wcm9i
+YWJpbGl0aWVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUTowFc2NhbGWUSwGMCnNvcnRfaW5kZXiU
+jCNPcmFuZ2Uud2lkZ2V0cy52aXN1YWxpemUub3dub21vZ3JhbZSMBlNvcnRCeZSTlEsChZRSlIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
+</properties>
+		<properties node_id="3" format="literal">{'controlAreaVisible': True, 'line_width_method': 2, 'max_node_width': 107, 'max_tree_depth': 3, 'regression_colors': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xdc\x00\x00\x00\xab\x00\x00\x06"\x00\x00\x04&gt;\x00\x00\x00\xdc\x00\x00\x00\xc7\x00\x00\x06"\x00\x00\x04&gt;\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\xdc\x00\x00\x00\xc7\x00\x00\x06"\x00\x00\x04&gt;', 'zoom': 7, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="4" format="literal">{'controlAreaVisible': True, 'depth_limit': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x95\x00\x00\x01\xba\x00\x00\x08\xb0\x00\x00\x05A\x00\x00\x03\x95\x00\x00\x01\xd6\x00\x00\x08\xb0\x00\x00\x05A\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x95\x00\x00\x01\xd6\x00\x00\x08\xb0\x00\x00\x05A', 'size_calc_idx': 0, 'zoom': 200, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="5" format="literal">{'auto_apply': True, 'calibration': 0, 'controlAreaVisible': True, 'learner_name': '', 'savedWidgetGeometry': None, 'threshold': 0, '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'kNN', 'metric_index': 0, 'n_neighbors': 5, 'savedWidgetGeometry': None, 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': None, 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 100, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04W\x00\x00\x01\xf1\x00\x00\x05\xf3\x00\x00\x03\x93\x00\x00\x04W\x00\x00\x02\r\x00\x00\x05\xf3\x00\x00\x03\x93\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04W\x00\x00\x02\r\x00\x00\x05\xf3\x00\x00\x03\x93', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'C': 1.0, 'auto_apply': True, 'coef0': 1.0, 'controlAreaVisible': True, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.0, 'kernel_type': 2, 'learner_name': '', 'limit_iter': True, 'max_iter': 100, 'nu': 0.5, 'nu_C': 1.0, 'savedWidgetGeometry': None, 'svm_type': 0, 'tol': 0.001, '__version__': 1}</properties>
+		<properties node_id="10" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="11" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="12" format="literal">{'algorithm_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'learning_rate': 1.0, 'loss_index': 0, 'n_estimators': 50, 'random_seed': 0, 'savedWidgetGeometry': None, 'use_random_seed': False, '__version__': 1}</properties>
+		<properties node_id="13" format="literal">{'activation_index': 3, 'alpha_index': 32, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100,', 'learner_name': 'Neural Network', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04z\x00\x00\x02\x08\x00\x00\x05\xcc\x00\x00\x03{\x00\x00\x04z\x00\x00\x02$\x00\x00\x05\xcc\x00\x00\x03{\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04z\x00\x00\x02$\x00\x00\x05\xcc\x00\x00\x03{', 'solver_index': 2, '__version__': 2}</properties>
+		<properties node_id="14" format="pickle">gASVmwEAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSJjAduX2ZvbGRzlEsCjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+bmeUSwOMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAAAAADnQAAAboAAAedAAAEbwAAA50AAAHWAAAHnQAABG8AAAAAAAAAAAoAAAAD
+nQAAAdYAAAedAAAEb5SMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+YWJsZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMA0FVQ5SMCVByZWNpc2lvbpSMA01TRZSM
+BlJlY2FsbJSMB0MtSW5kZXiUjAJSMpSMAkYxlIwCQ0GUjANNQUWUkHOMC19fdmVyc2lvbl9flEsD
+jBBjb250ZXh0X3NldHRpbmdzlF2UdS4=
+</properties>
+		<properties node_id="15" format="pickle">gASV3wAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lE6MCXNlbGVjdGlvbpRdlIwLc2hvd19zY29yZXOUiIwLc2NvcmVfdGFibGWUfZSMDHNob3duX3Nj
+b3Jlc5SPlCiMBFJNU0WUjANBVUOUjAlQcmVjaXNpb26UjANNU0WUjAZSZWNhbGyUjAdDLUluZGV4
+lIwCUjKUjAJGMZSMAkNBlIwDTUFFlJBzjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5n
+c5RdlHUu
+</properties>
+		<properties node_id="16" format="pickle">gASV9wAAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
+c5SJjAphdXRvY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21l
+dHJ5lE6MEHNlbGVjdGVkX2xlYXJuZXKUjAdjb3B5cmVnlIwOX3JlY29uc3RydWN0b3KUk5SMCGJ1
+aWx0aW5zlIwEbGlzdJSTlGgMKYeUUpRLAGGMEXNlbGVjdGVkX3F1YW50aXR5lEsAjAtfX3ZlcnNp
+b25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlHUu
+</properties>
+		<properties node_id="17" format="literal">{'controlAreaVisible': True, 'display_convex_curve': False, 'display_convex_hull': False, 'display_def_threshold': True, 'display_perf_line': True, 'fn_cost': 500, 'fp_cost': 500, 'roc_averaging': 0, 'savedWidgetGeometry': None, 'target_prior': 50.0, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="18" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'display_rug': True, 'fold_curves': False, 'output_calibration': 0, 'savedWidgetGeometry': None, 'score': 0, 'threshold': 0.5, 'visual_settings': {}, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="19" format="literal">{'auto_apply': True, 'contours_enabled': True, 'controlAreaVisible': True, 'degree': 1, 'learner_name': 'Polynomial Classification', 'savedWidgetGeometry': None, 'target_class': '', 'graph': {'alpha_value': 128, 'class_density': False, 'jitter_size': 0, 'label_only_selected': False, 'point_width': 1, 'show_grid': False, 'show_legend': True}, '__version__': 1, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

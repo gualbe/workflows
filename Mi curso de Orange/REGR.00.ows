@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="untitled" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Auto MPG" position="(150, 300)" />
+		<node id="1" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN" position="(150, 900)" />
+		<node id="2" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(450, 750)" />
+		<node id="3" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(300, 750)" />
+		<node id="4" name="Gradient Boosting" qualified_name="Orange.widgets.model.owgradientboosting.OWGradientBoosting" project_name="Orange3" version="" title="Gradient Boosting" position="(150, 750)" />
+		<node id="5" name="Linear Regression" qualified_name="Orange.widgets.model.owlinearregression.OWLinearRegression" project_name="Orange3" version="" title="Linear Regression" position="(450, 900)" />
+		<node id="6" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(300, 900)" />
+		<node id="7" name="Curve Fit" qualified_name="Orange.widgets.model.owcurvefit.OWCurveFit" project_name="Orange3" version="" title="Curve Fit" position="(750, 1050)" />
+		<node id="8" name="Stacking" qualified_name="Orange.widgets.model.owstack.OWStackedLearner" project_name="Orange3" version="" title="Stacking" position="(900, 1050)" />
+		<node id="9" name="Save Model" qualified_name="Orange.widgets.model.owsavemodel.OWSaveModel" project_name="Orange3" version="" title="Save Model" position="(1050, 600)" />
+		<node id="10" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(600, 300)" />
+		<node id="11" name="Polynomial Regression" qualified_name="orangecontrib.educational.widgets.owpolynomialregression.OWPolynomialRegression" project_name="Orange3-Educational" version="" title="Polynomial Regression" position="(600, 600)" />
+		<node id="12" name="Gradient Descent" qualified_name="orangecontrib.educational.widgets.owgradientdescent.OWGradientDescent" project_name="Orange3-Educational" version="" title="Gradient Descent" position="(750, 600)" />
+	</nodes>
+	<links />
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x8e\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00$\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x96\x00\x00\x01\xaa\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\x96\x00\x00\x01\xc6\x00\x00\x051\x00\x00\x03\xb9', 'selected_id': 'core/auto-mpg.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'kNN', 'metric_index': 0, 'n_neighbors': 5, 'savedWidgetGeometry': None, 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': None, 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 100, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04W\x00\x00\x01\xf1\x00\x00\x05\xf3\x00\x00\x03\x93\x00\x00\x04W\x00\x00\x02\r\x00\x00\x05\xf3\x00\x00\x03\x93\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04W\x00\x00\x02\r\x00\x00\x05\xf3\x00\x00\x03\x93', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'method_index': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\x83\x00\x00\x01\xca\x00\x00\x05\xc2\x00\x00\x03\xb9\x00\x00\x04\x83\x00\x00\x01\xe6\x00\x00\x05\xc2\x00\x00\x03\xb9\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04\x83\x00\x00\x01\xe6\x00\x00\x05\xc2\x00\x00\x03\xb9', 'catgb_editor': {'colsample_bylevel': 1, 'lambda_index': 55, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True}, 'gb_editor': {'learning_rate': 0.1, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgb_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgbrf_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'alpha_index': 0, 'auto_apply': True, 'autosend': True, 'controlAreaVisible': True, 'fit_intercept': True, 'l2_ratio': 0.5, 'learner_name': '', 'reg_type': 0, 'ridge': False, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'activation_index': 3, 'alpha_index': 32, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100,', 'learner_name': 'Neural Network', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04z\x00\x00\x02\x08\x00\x00\x05\xcc\x00\x00\x03{\x00\x00\x04z\x00\x00\x02$\x00\x00\x05\xcc\x00\x00\x03{\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04z\x00\x00\x02$\x00\x00\x05\xcc\x00\x00\x03{', 'solver_index': 2, '__version__': 2}</properties>
+		<properties node_id="7" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'expression': '', 'learner_name': '', 'parameters': {}, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'Stack', 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'auto_save': False, 'controlAreaVisible': True, 'filter': 'Pickled model (*.pkcls)', 'savedWidgetGeometry': None, 'stored_name': '', 'stored_path': '/Users/gualberto/', '__version__': 1}</properties>
+		<properties node_id="10" format="pickle">gASVmwEAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSJjAduX2ZvbGRzlEsCjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+bmeUSwCMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAAAAABQwAAAYMAAAVDAAAEOAAAAUMAAAGfAAAFQwAABDgAAAAAAAAAAAoAAAAB
+QwAAAZ8AAAVDAAAEOJSMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+YWJsZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMA0FVQ5SMCVByZWNpc2lvbpSMA01TRZSM
+BlJlY2FsbJSMB0MtSW5kZXiUjAJSMpSMAkYxlIwCQ0GUjANNQUWUkHOMC19fdmVyc2lvbl9flEsD
+jBBjb250ZXh0X3NldHRpbmdzlF2UdS4=
+</properties>
+		<properties node_id="11" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'error_bars_enabled': False, 'fit_intercept': True, 'learner_name': 'Polynomial Regression', 'polynomialexpansion': 1, 'savedWidgetGeometry': None, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="12" format="literal">{'alpha': 0.4, 'auto_play_speed': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'step_size': 30, 'stochastic': False, 'target_class': '', '__version__': 1, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

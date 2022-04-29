@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="untitled" description="">
+	<nodes>
+		<node id="0" name="Data Sampler" qualified_name="Orange.widgets.data.owdatasampler.OWDataSampler" project_name="Orange3" version="" title="Data Sampler" position="(124.0, 50.0)" />
+		<node id="1" name="Transpose" qualified_name="Orange.widgets.data.owtranspose.OWTranspose" project_name="Orange3" version="" title="Transpose" position="(124.0, 500.0)" />
+		<node id="2" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(124.0, 200.0)" />
+		<node id="3" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(1024.0, 50.0)" />
+		<node id="4" name="Merge Data" qualified_name="Orange.widgets.data.owmergedata.OWMergeData" project_name="Orange3" version="" title="Merge Data" position="(274.0, 500.0)" />
+		<node id="5" name="Concatenate" qualified_name="Orange.widgets.data.owconcatenate.OWConcatenate" project_name="Orange3" version="" title="Concatenate" position="(424.0, 500.0)" />
+		<node id="6" name="Select by Data Index" qualified_name="Orange.widgets.data.owselectbydataindex.OWSelectByDataIndex" project_name="Orange3" version="" title="Select by Data Index" position="(124.0, 650.0)" />
+		<node id="7" name="Unique" qualified_name="Orange.widgets.data.owunique.OWUnique" project_name="Orange3" version="" title="Unique" position="(274.0, 50.0)" />
+		<node id="8" name="Aggregate Columns" qualified_name="Orange.widgets.data.owaggregatecolumns.OWAggregateColumns" project_name="Orange3" version="" title="Aggregate Columns" position="(874.0, 200.0)" />
+		<node id="9" name="Group by" qualified_name="Orange.widgets.data.owgroupby.OWGroupBy" project_name="Orange3" version="" title="Group by" position="(424.0, 50.0)" />
+		<node id="10" name="Pivot Table" qualified_name="Orange.widgets.data.owpivot.OWPivot" project_name="Orange3" version="" title="Pivot Table" position="(274.0, 650.0)" />
+		<node id="11" name="Preprocess" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" project_name="Orange3" version="" title="Preprocess" position="(724.0, 500.0)" />
+		<node id="12" name="Impute" qualified_name="Orange.widgets.data.owimpute.OWImpute" project_name="Orange3" version="" title="Impute" position="(1024.0, 500.0)" />
+		<node id="13" name="Continuize" qualified_name="Orange.widgets.data.owcontinuize.OWContinuize" project_name="Orange3" version="" title="Continuize" position="(874.0, 500.0)" />
+		<node id="14" name="Discretize" qualified_name="Orange.widgets.data.owdiscretize.OWDiscretize" project_name="Orange3" version="" title="Discretize" position="(724.0, 650.0)" />
+		<node id="15" name="Randomize" qualified_name="Orange.widgets.data.owrandomize.OWRandomize" project_name="Orange3" version="" title="Randomize" position="(274.0, 200.0)" />
+		<node id="16" name="Purge Domain" qualified_name="Orange.widgets.data.owpurgedomain.OWPurgeDomain" project_name="Orange3" version="" title="Purge Domain" position="(874.0, 50.0)" />
+		<node id="17" name="Melt" qualified_name="Orange.widgets.data.owmelt.OWMelt" project_name="Orange3" version="" title="Melt" position="(424.0, 650.0)" />
+		<node id="18" name="Feature Constructor" qualified_name="Orange.widgets.data.owfeatureconstructor.OWFeatureConstructor" project_name="Orange3" version="" title="Feature Constructor" position="(724.0, 200.0)" />
+		<node id="19" name="Create Class" qualified_name="Orange.widgets.data.owcreateclass.OWCreateClass" project_name="Orange3" version="" title="Create Class" position="(724.0, 50.0)" />
+		<node id="20" name="Create Instance" qualified_name="Orange.widgets.data.owcreateinstance.OWCreateInstance" project_name="Orange3" version="" title="Create Instance" position="(424.0, 200.0)" />
+		<node id="21" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(1024.0, 650.0)" />
+		<node id="22" name="Outliers" qualified_name="Orange.widgets.data.owoutliers.OWOutliers" project_name="Orange3" version="" title="Outliers" position="(874.0, 650.0)" />
+		<node id="23" name="PCA" qualified_name="Orange.widgets.unsupervised.owpca.OWPCA" project_name="Orange3" version="" title="PCA" position="(874.0, 800.0)" />
+		<node id="24" name="Rank" qualified_name="Orange.widgets.data.owrank.OWRank" project_name="Orange3" version="" title="Rank" position="(724.0, 800.0)" />
+	</nodes>
+	<links />
+	<annotations>
+		<text id="0" type="text/plain" rect="(214.0, 290.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Transformaciones a nivel de fila</text>
+		<text id="1" type="text/plain" rect="(802.0, 292.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Transformaciones a nivel de columna</text>
+		<text id="2" type="text/plain" rect="(214.0, 744.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Transformaciones a nivel de tabla</text>
+		<text id="3" type="text/plain" rect="(824.0, 892.0, 150.0, 50.0)" font-family=".AppleSystemUIFont" font-size="16">Técnicas de preprocesado</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'compatibility_mode': False, 'controlAreaVisible': True, 'number_of_folds': 10, 'replacement': False, 'sampleSizeNumber': 1, 'sampleSizePercentage': 70, 'sampleSizeSqlPercentage': 0.1, 'sampleSizeSqlTime': 1, 'sampling_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xa2\x00\x00\x01\xdd\x00\x00\x05\xa4\x00\x00\x03\xa6\x00\x00\x04\xa2\x00\x00\x01\xf9\x00\x00\x05\xa4\x00\x00\x03\xa6\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04\xa2\x00\x00\x01\xf9\x00\x00\x05\xa4\x00\x00\x03\xa6', 'selectedFold': 1, 'sql_dl': False, 'stratify': False, 'use_seed': True, '__version__': 2}</properties>
+		<properties node_id="1" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xaa\x00\x00\x028\x00\x00\x05\x9b\x00\x00\x03K\x00\x00\x04\xaa\x00\x00\x02T\x00\x00\x05\x9b\x00\x00\x03K\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04\xaa\x00\x00\x02T\x00\x00\x05\x9b\x00\x00\x03K', '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'purge_attributes': False, 'purge_classes': False, 'savedWidgetGeometry': None, 'update_on_change': True, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="3" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'ignore_new_features': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\xf5\x00\x00\x01\x88\x00\x00\x06L\x00\x00\x03\xfb\x00\x00\x03\xf5\x00\x00\x01\xa4\x00\x00\x06L\x00\x00\x03\xfb\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\xf5\x00\x00\x01\xa4\x00\x00\x06L\x00\x00\x03\xfb', 'use_input_features': False, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="4" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'merging': 0, 'savedWidgetGeometry': None, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="5" format="literal">{'append_source_column': False, 'auto_commit': True, 'controlAreaVisible': True, 'ignore_compute_value': False, 'merge_type': 0, 'savedWidgetGeometry': None, 'source_attr_name': 'Source ID', 'source_column_role': 0, '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'tiebreaker': 'Last instance', '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="8" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'operation': 'Sum', 'savedWidgetGeometry': None, 'var_name': 'agg', '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="9" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="10" format="pickle">gASVzQAAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lE6MEXNlbF9hZ2dfZnVuY3Rpb25zlI+UKIwbT3JhbmdlLndpZGdldHMu
+ZGF0YS5vd3Bpdm90lIwYQWdncmVnYXRpb25GdW5jdGlvbnNFbnVtlJOUSwCFlFKUkIwJc2VsZWN0
+aW9ulI+UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlHUu
+</properties>
+		<properties node_id="11" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'storedsettings': {'name': '', 'preprocessors': []}, '__version__': 2}</properties>
+		<properties node_id="12" format="literal">{'_default_method_index': 1, 'autocommit': True, 'controlAreaVisible': True, 'default_numeric_value': 0.0, 'default_time': 0, 'savedWidgetGeometry': None, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="13" format="literal">{'autosend': True, 'class_treatment': 0, 'continuous_treatment': 0, 'controlAreaVisible': True, 'multinomial_treatment': 0, 'savedWidgetGeometry': None, '__version__': 2}</properties>
+		<properties node_id="14" format="literal">{'autosend': True, 'controlAreaVisible': True, 'default_cutpoints': (), 'default_k': 3, 'default_method_name': 'EqualFreq', 'savedWidgetGeometry': None, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="15" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'random_seed': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xa6\x00\x00\x02A\x00\x00\x05\xa0\x00\x00\x03C\x00\x00\x04\xa6\x00\x00\x02]\x00\x00\x05\xa0\x00\x00\x03C\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x04\xa6\x00\x00\x02]\x00\x00\x05\xa0\x00\x00\x03C', 'scope_prop': 80, 'shuffle_attrs': False, 'shuffle_class': True, 'shuffle_metas': False, '__version__': 1}</properties>
+		<properties node_id="16" format="literal">{'autoSend': True, 'controlAreaVisible': True, 'removeAttributes': 1, 'removeClassAttribute': 1, 'removeClasses': 1, 'removeMetaAttributeValues': 1, 'removeMetaAttributes': 1, 'removeValues': 1, 'savedWidgetGeometry': None, 'sortClasses': True, 'sortValues': True, '__version__': 1}</properties>
+		<properties node_id="17" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'exclude_zeros': False, 'item_var_name': '', 'only_numeric': True, 'savedWidgetGeometry': None, 'value_var_name': '', '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="18" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="19" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="20" format="literal">{'append_to_data': True, 'auto_commit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'values': {}, '__version__': 1}</properties>
+		<properties node_id="21" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x93\x00\x00\x01\x88\x00\x00\x06\xb2\x00\x00\x03\xfb\x00\x00\x03\x93\x00\x00\x01\xa4\x00\x00\x06\xb2\x00\x00\x03\xfb\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x93\x00\x00\x01\xa4\x00\x00\x06\xb2\x00\x00\x03\xfb', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xab\x00\x00\x00k\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="22" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'outlier_method': 2, 'savedWidgetGeometry': None, 'cov_editor': {'cont': 10, 'empirical_covariance': False, 'support_fraction': 1}, 'isf_editor': {'cont': 10, 'replicable': False}, 'lof_editor': {'cont': 10, 'metric_index': 0, 'n_neighbors': 20}, 'svm_editor': {'gamma': 0.01, 'nu': 50}, '__version__': 2}</properties>
+		<properties node_id="23" format="literal">{'auto_commit': True, 'axis_labels': 10, 'controlAreaVisible': True, 'maxp': 20, 'ncomponents': 2, 'normalize': True, 'savedWidgetGeometry': None, 'variance_covered': 100, '__version__': 1}</properties>
+		<properties node_id="24" format="pickle">gASVEAEAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUTowQc2VsZWN0ZWRfbWV0aG9kc5SPlCiMDUdpbmkgRGVjcmVhc2WUjBVV
+bml2YXJpYXRlIFJlZ3Jlc3Npb26UjBZJbmZvcm1hdGlvbiBHYWluIFJhdGlvlIwIUlJlbGllZkaU
+kIwHc29ydGluZ5RLAIwDc2lwlIwOX3VucGlja2xlX2VudW2Uk5SMDFB5UXQ1LlF0Q29yZZSMCVNv
+cnRPcmRlcpRLAYeUUpSGlIwLX192ZXJzaW9uX1+USwOMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
